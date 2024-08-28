@@ -1,0 +1,116 @@
+ion-header {
+    --background: #ffffff; 
+    --color: #000000; 
+  }
+  
+  ion-toolbar {
+    --background: #f8f9fa; 
+    --color: #000000; 
+  }
+  
+  ion-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  ion-buttons {
+    ion-button {
+      --color: #000000; 
+    }
+  }
+  
+  
+  ion-list {
+    --background: #ffffff; 
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+  
+  ion-item {
+    --background: #f8f9fa; 
+    --border-radius: 8px; 
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --margin-bottom: 8px;
+    --color: #333333; 
+    border: 1px solid #e0e0e0; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.2s ease;
+  
+    &:hover {
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  ion-thumbnail {
+    --border-radius: 8px; 
+    margin-right: 16px;
+  }
+  
+  ion-thumbnail img {
+    border-radius: 8px;
+    width: 80px; 
+    height: 80px;
+    object-fit: cover; 
+  }
+  
+  ion-label {
+    h2 {
+      font-size: 1em;
+      font-weight: bold;
+      color: #000000; 
+      margin-bottom: 4px;
+    }
+  
+    p {
+      font-size: 0.9em;
+      color: #333333;
+    }
+  }
+  
+  ion-button {
+    --border-radius: 8px; 
+  }
+  
+  ion-button[color="danger"] {
+    --background: #ff4d4d; 
+    --color: #ffffff; 
+  }
+  
+  ion-footer {
+    --background: #f8f9fa; 
+  }
+  
+  ion-toolbar {
+    --color: #000000; 
+  }
+  
+  ion-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .pay-button {
+    --background: #7d3f9c; 
+    --color: #ffffff; 
+    --border-radius: 8px;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      background-color: #6a2f7b; 
+      box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+    }
+  
+    &:active {
+      background-color: #5a1f6d; 
+    }
+  }
+  
